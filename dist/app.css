@@ -1,0 +1,60 @@
+html, body {
+  height: 100%;
+}
+
+body {
+  background: #333;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-family: Helvetica Neue;
+}
+
+h1 {
+  font-size: 2em;
+  color: #eee;
+}
+
+h2 {
+  font-size: 1.5em;
+  color: #999;
+}
+
+a {
+  color: white;
+}
+
+p, pre {
+  margin-top: 1em;
+  color: #900;
+}
+
+dl {
+  color: #090;
+}
+
+dd {
+  color: #e9e;
+}
+
+input {
+  background: #333;
+  border-color: #999;
+  height: 32px;
+  width: 500px;
+  font-size: 28px;
+  color: #0aa;
+}
+
+span.me {
+  color: #aea;
+}
